@@ -21,7 +21,7 @@ To use the Trie and find_combinations function, you will need to create a Trie o
 
 Here is an example of how you can use the Trie and find_combinations function:
 
-`
+```
 import json
 from tqdm import tqdm
 from concurrent.futures import ProcessPoolExecutor
@@ -42,13 +42,11 @@ combinations = find_combinations(trie, '', '', (), [])
 
 # Print the combinations
 print(combinations)
-`
+````
 
 This will output the following list of combinations:
 
-`
-[('bat', 'car', 'rat', 'rar', 'cat'), ('bat', 'car', 'rat', 'rar', 'bar')]
-`
+`[('bat', 'car', 'rat', 'rar', 'cat'), ('bat', 'car', 'rat', 'rar', 'bar')]`
 
 ### References
 - [Trie - Wikipedia](https://en.wikipedia.org/wiki/Trie)
